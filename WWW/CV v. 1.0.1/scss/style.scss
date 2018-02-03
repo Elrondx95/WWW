@@ -1,0 +1,127 @@
+@import "settings";
+body {
+  background-image: url("../media/rozwoj.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  color: $color-text;
+  font-family: 'Spectral SC', serif;
+  font-style: bold;
+  padding-right: 0;
+}
+
+/*
+STUKTURA DIVY
+*/
+header img {
+  height: 20%;
+  width: 100%;
+  background-color: dark;
+  margin: 0 6px;
+}
+nav {
+  width: 100%;
+  height: 40px;
+  background-color:$tlo;
+  margin: 6px;
+}
+.container {
+    padding: none;
+}
+.h_container {
+  width: 100%;
+}
+.first {
+  float: left;
+  width: 23%;
+  background-color: $tlo;
+  margin: $mar-dm;
+  padding: $pad-dm;
+  font-size: $fsize-dm;
+}
+.second {
+  float: left;
+  width: 22.5%;
+  background-color: $tlo;
+  margin: $mar-dm;
+  padding: $pad-dm;
+  font-size: $fsize-dm;
+}
+.third {
+  float: left;
+  width: 22.6%;
+  background-color: $tlo;
+  margin: $mar-dm;
+  padding: $pad-dm;
+  font-size: $fsize-dm;
+}
+.fourth {
+  float: left;
+  width: 23%;
+  background-color: $tlo;
+  margin: $mar-dm;
+  margin-left: 6px;
+  padding: $pad-dm;
+  font-size: $fsize-dm;
+}
+.left_side {
+  clear: both;
+  float: left;
+  width: 20%;
+  background-color: $tlo;
+  margin: $mar-ls;
+  padding: $pad-ls;
+  font-size: $fsize-ls;
+}
+.main_content {
+  float: left;
+  width: 58.3%;
+  background-color: $tlo;
+  margin: $mar-mc;
+  padding: $pad-mc;
+  font-size: $fsize-mc;
+}
+.right_side {
+  float: left;
+  width: 15%;
+  background-color: $tlo;
+  margin: $mar-rs;
+  padding: $pad-rs;
+  font-size: $fsize-rs;
+ }
+footer {
+  clear: both;
+  text-align: center;
+  background-color: $tlo
+}
+/*
+ELEMENTY
+*/
+ul {
+  position: relative;
+  display: block;
+}
+.hnav {
+  display: block;
+  list-style: none;
+  padding: 5px 10px 5px 10px;
+  position: relative;
+  overflow: hidden;
+}
+ul li {
+  float: left;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+nav ul li a{
+  color: $color-text;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+nav ul li a:hover {
+  color: $color-hover;
+  font-weight: bold;
+}
